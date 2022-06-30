@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{ссылка}">
+    <meta property="og:title" content="название">
+    <meta property="og:description" content="текст">
+    <meta property="og:image" content="{картинка}">
+    <title>Отправка</title>
+      <link href="./stylesheet/style.css" rel="stylesheet" type="text/css"/>
+      <link href="./stylesheet/font.css" rel="stylesheet" type="text/css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="javascripts/script.js" charset="utf-8"></script>
+  </head>
+<body>
+  <div class="sidemenu2">
+    <div class="logo2 toHq">
+    <a href="index.html">
+    <img src="img/logo.svg">
+    </a>
+    <h1>отпрАвкА</h1>
+    </div>
+    <div class="line1"></div>
+    <p>отпрАвить</p>
+    <div class="line1"></div>
+    <a href="track.html">отследить</a>
+    <div class="line1"></div>
+
+  </div>
+  <div class="main2">
+    <!-- <div class="departure2">точкА отпрАвления</div> -->
+    <!-- <div class="destination2">точкА прибытия</div> -->
+
+    <div class="send">отпрАвьте посылку</div>
+    <div class="form1">
+      <input class="form11" type="text" name="departures">
+      <div class="departure">точкА отпрАвления</div>
+    </div>
+    <div class="form2">
+      <input class="form22" type="text" name="destinations">
+      <div class="destination">точкА прибытия</div>
+    </div>
+      <button class="buttonse" type="submit" onclick="openPopup()">отпрАвить</button>
+    <div class="popup1" id="popup1">
+      <h1>ожидАйте</h1>
+      <p>нАш курьер скоро зАберет вАшу посылку!</p>
+      <button class="cross" type="button" onclick="closePopup()">☓</button>
+    </div>
+  </div>
+
+<script>
+let popup1 = document.getElementById("popup1");
+
+function openPopup(){
+  popup1.classList.add("open-popup1");
+}
+
+function closePopup(){
+  popup1.classList.remove("open-popup1");
+}
+</script>
+
+</body>
+</html>

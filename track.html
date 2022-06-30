@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{ссылка}">
+    <meta property="og:title" content="название">
+    <meta property="og:description" content="текст">
+    <meta property="og:image" content="{картинка}">
+    <title>Отслеживание</title>
+      <link href="./stylesheet/style.css" rel="stylesheet" type="text/css"/>
+      <link href="./stylesheet/font.css" rel="stylesheet" type="text/css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="javascripts/script.js" charset="utf-8"></script>
+
+  </head>
+<body>
+  <div class="sidemenu2">
+    <div class="logo2 toTrack">
+    <a href="index.html">
+    <img src="img/logo.svg">
+    </a>
+    <h1>отслеживАние</h1>
+    </div>
+    <div class="line1"></div>
+    <a href="dispatch.html">отпрАвить</a>
+    <div class="line1"></div>
+    <p>отследить</p>
+    <div class="line1"></div>
+
+  </div>
+  <div class="main2">
+    <!-- <div class="trackNum2">точкА отпрАвления</div> -->
+    <div class="send">отследить посылку</div>
+    <div class="formNum">
+      <input class="formNum1" type="text" name="tracknums">
+      <div class="trackNum">введите трек-номер</div>
+    </div>
+    <button class="buttonse3" type="submit" onclick="openPopup()">отследить</button>
+    
+    <div class="map">
+      <div class="intrack"></div>
+      <img src="img/map2.png">
+      <div class="mark" id="mark">
+        <img src="img/sign.svg">
+      </div>
+    </div>
+  </div>
+
+<script>
+let mark = document.getElementById("mark");
+
+function openPopup(){
+  mark.classList.add("open-mark");
+}
+
+</script>
+
+</body>
+</html>

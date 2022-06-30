@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{ссылка}">
+    <meta property="og:title" content="название">
+    <meta property="og:description" content="текст">
+    <meta property="og:image" content="{картинка}">
+    <title>Вакансии</title>
+      <link href="./stylesheet/style.css" rel="stylesheet" type="text/css"/>
+      <link href="./stylesheet/font.css" rel="stylesheet" type="text/css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script type="module" src="javascripts/script.js" charset="utf-8"></script>
+
+  </head>
+<body>
+  <div class="sidemenu2">
+    <div class="logo2">
+    <a href="index.html">
+    <img src="img/logo.svg">
+    </a>
+    <h1>о нАс</h1>
+    </div>
+    <div class="line1"></div>
+    <a href="about.html">история</a>
+    <div class="line1"></div>
+    <p>вАкАнсии</p>
+    <div class="line1"></div>
+
+  </div>
+  <div class="main2 forVac">
+    <div class="workhead">
+      <img src="img/training2.jpg">
+      <div class="workheader">будущее с нАми</div>
+      <div class="workheadertext">
+      <div class="linein classVac"></div>
+      <p>Spacepoint ищет тАланты мирового уровня, готовые зАняться проектами в космосе, которые в конечном итоге улучшАт рАботоспособность и сеть космических грузоперевозок. Мы являемся рАботодАтелем с рАвными возможностями, предлАгАющим конкурентоспособную зАрАботную плАту, комплексные медицинские льготы и пАкеты Акций.</p>
+      <div class="linein classVac"></div>
+    </div>
+    </div>
+    <div class="workbot">
+      <div class="avalible">
+        <h1>доступные вАкАнсии</h1>
+        <div class="linein"></div>
+      </div>
+      <div class="workcell engin">
+        <h1>инженер</h1>
+        <div class="line2"></div>
+        <p>Мы создАем критически вАжные системы ускорения производствА и полетА рАкет-носителей, А тАкже системы, которые позволяют spAcepoint преврАтиться во всемирный быстрый и нАдежный сервис. Мы ищем инженеров, которые относятся к товАрищам по комАнде спрАведливо, с увАжением и поддержкой.</p>
+        <div class="line2"></div>
+        <p>сАтурн 5</p>
+        <button class="buttonse1" type="submit" onclick="openPopup()">откликнуться</button>
+      </div>
+      <div class="workcell pilot">
+        <h1>пилот</h1>
+        <div class="line2"></div>
+        <p>ВАкАнсия пилотА это возможность выполнять функции комАндирА воздушного судна на рейсАх и работАть со стАжерАми в кАчестве инструкторА. Для этой роли требуется уровень космической летной подготовки EASA ATPL или другой международный эквивАлент, А также обширный опыт обучения в космических АгенствАх.</p>
+        <div class="line2"></div>
+        <p>юпитер 1</p>
+        <button class="buttonse1" type="submit" onclick="openPopup()">откликнуться</button>
+      </div>
+      <div class="workcell cord">
+        <h1>координАтор</h1>
+        <div class="line2"></div>
+        <p>Вы будете глАвным координАтором и осуществлять процесс нАвигАции космических корАблей компАнии от нАчАлА до концА. рАбота в нАгруженной среде с несколькими юнитАми для координАции всех Аспектов процессА полетА космического суднА.
+в вАши обязанности будет входить: выступление в кАчестве единой точки контАкта и координАции нА всех этАпАх межплАнетного полетА.</p>
+        <div class="line2"></div>
+        <p>земля</p>
+        <button class="buttonse1" type="submit" onclick="openPopup()">откликнуться</button>
+      </div>
+    </div>
+    <div class="popup2" id="popup2">
+      <h1>мы обязАтельно с вАми свяжемся!</h1>
+      <button class="cross2" type="button" onclick="closePopup()">☓</button>
+    </div>  
+      </div>
+
+
+<script>
+let popup2 = document.getElementById("popup2");
+
+function openPopup(){
+  popup2.classList.add("open-popup2");
+}
+
+function closePopup(){
+  popup2.classList.remove("open-popup2");
+}
+</script>
+
+
+
+</body>
+</html>
