@@ -80,18 +80,18 @@ html {
 .logo2 h1 {
 	padding: 20px 8px 0px 16px;
 	text-decoration: none;
-	font-size: 64px;
+	font-size: 24px;
 	color: black;
 	display: block;
 	text-align: center;
 }
 
 .toHq h1 {
-	font-size: 52px;
+	font-size: 24px;
 }
 
 .toTrack h1 {
-	font-size: 38px;
+	font-size: 24px;
 }
 
 .line1 {
