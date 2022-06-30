@@ -16,7 +16,48 @@
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-  /* iPhone Portrait */
+
+.main {
+  width: 100%;
+  height: 60%;
+  bottom: 0;
+}
+
+.sidemenu {
+  width: 100%;
+  height: 40%;
+  bottom: 0;
+  font-size: 20px;
+  position: relative;
+}
+
+.cell {
+  width: 400px;
+}
+
+.cell img {
+  width: 400px;
+}
+
+.main2 {
+  width: 100%;
+  height: 60%;
+  bottom: 0;
+}
+
+.sidemenu2 {
+  width: 100%;
+  height: 40%;
+  bottom: 0;
+  font-size: 20px;
+  position: relative;
+}
+
+.timelineText {
+  font-size: 10px;
+}
+
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
