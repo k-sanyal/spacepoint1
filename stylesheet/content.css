@@ -779,3 +779,14 @@ html {
 .row3 {
 	margin-left: 50%;
 }
+
+.error {
+	text-align: center;
+	font-size: 64px;
+
+}
+
+.error img {
+	text-align: center;
+	padding-top: 5%;
+}
